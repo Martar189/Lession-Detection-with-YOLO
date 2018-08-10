@@ -60,13 +60,18 @@ We needed to shuffle the data to avoid any inference based on the order of the i
 
 Original model structure includes included 23 CNN, with convolutional and max pooling layers, followed by 2 fully connected layers at the end. Uses a set of pre-trained weights that are then optimised using a custom loss function
 
+![YOLO Architecture](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ43CZUbXypj0MJrgUP4d_PAlO8kwoKXL64B18rqamnz7r5B4bY)
+
+
 Model advantages
 The whole detection pipeline is a single network, 
 It can be customised and optimized end-to-end. 
 It is extremely fast
 
+For more information on the model [click here] (https://pjreddie.com/media/files/papers/yolo.pdf)
 
-https://pjreddie.com/media/files/papers/yolo.pdf
+
+
 
 
 
