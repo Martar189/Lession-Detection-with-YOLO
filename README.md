@@ -74,7 +74,7 @@ The original model structure includes included 23 CNN, with convolutional and ma
 ***Model advantages***
 
 * The whole detection pipeline is a single network
-* It can be customised and optimized end-to-end. 
+* It can be customised and optimized end-to-end
 * It is extremely fast
 
 For more information on the model [click here](https://pjreddie.com/media/files/papers/yolo.pdf)
