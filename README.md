@@ -11,7 +11,10 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4960058/
 The goal of this project was to asses the performance of a custom version of YOLO (You only look once) model to support early infection detection.
 
 ***WHY YOLO?***
-We were working under the hypothesis that the segmentation of an image containing an skin lession, isolating the image from the background, improves the accuracy of the classification. Therefore we needed to implement a model that would separated bounding boxes and associated class probabilities. And that is in a nut shell what YOLO does.
+
+We were working under the hypothesis that the segmentation of an image containing an skin lession, isolating the image from the background, improves the accuracy of the classification. 
+
+Therefore we needed to implement a model that would separated bounding boxes and associated class probabilities. And that is in a nut shell what YOLO does.
 
 ## TASKS
 
