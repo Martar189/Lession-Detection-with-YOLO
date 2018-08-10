@@ -8,12 +8,12 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4960058/
 
 
 ## GOAL
-The goal of this project was to asses the performance of a custom version of YOLO model to support early infection detection
+The goal of this project was to asses the performance of a custom version of YOLO (You only look once) model to support early infection detection.
 
-## HYPOTHESIS
+***WHY YOLO?***
+We were working under the hypothesis that the segmentation of an image containing an skin lession, isolating the image from the background, improves the accuracy of the classification. Therefore we needed to implement a model that would separated bounding boxes and associated class probabilities. And that is in a nut shell what YOLO does.
 
-
-## OUR TASKS
+## TASKS
 
 ***TASK 1 – LESION BOUNDING***
 Train a model to output the coordinates of the top-left and bottom-right vertices of a rectangle that contains the lesion area (bounding box)
@@ -22,7 +22,7 @@ Train a model to output the coordinates of the top-left and bottom-right vertice
 Use a classifier that discriminates between benign and malign lesions
 
 
-## ROJECT LIFECYCLE 
+## PROJECT LIFECYCLE 
 
 ### DATA PREPROCESSING 
 
@@ -47,7 +47,7 @@ LEARNINGS
 We had to rebuild the pre - processing function to apply data augmentation to the training set only to avoid leakage
 We needed to shuffle the data to avoid any inference based on the order of the images
 
-
+https://pjreddie.com/media/files/papers/yolo.pdf
 
 
 
