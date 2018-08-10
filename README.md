@@ -47,8 +47,21 @@ Initial set: 206 samples
 Final dataset: Train on 1148 samples, validate on 42 samples
 
 LEARNINGS
+
 We had to rebuild the pre - processing function to apply data augmentation to the training set only to avoid leakage
 We needed to shuffle the data to avoid any inference based on the order of the images
+
+### MODELLING
+
+***OBJECT DETECTION USING YOLO (You Only Look Once)
+
+Original model structure includes included 23 CNN, with convolutional and max pooling layers, followed by 2 fully connected layers at the end. Uses a set of pre-trained weights that are then optimised using a custom loss function
+
+Model advantages
+The whole detection pipeline is a single network, 
+It can be customised and optimized end-to-end. 
+It is extremely fast
+
 
 https://pjreddie.com/media/files/papers/yolo.pdf
 
