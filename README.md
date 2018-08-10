@@ -1,4 +1,4 @@
-# Early-infection-detection-using-YOLO
+# EARLY INFECTION DETECTION USING YOLO
 
 ## MOTIVATION
 
