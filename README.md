@@ -16,7 +16,7 @@ We were working under the hypothesis that the segmentation of an image containin
 
 Therefore we needed to implement a model that would separated bounding boxes and associated class probabilities. And that is in a nut shell what YOLO does.
 
-![YOLO](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwipm5Tn8OLcAhUysaQKHXcuBR0QjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkuQQUvUfGzU&psig=AOvVaw12ycNjQ6iqdbOMbNUazaAT&ust=1534004032643676)
+![YOLO](https://cdn-images-1.medium.com/max/1600/1*oOD2qLugrH-oc6EEKLzdBg.jpeg)
 
 
 ## TASKS
