@@ -7,7 +7,7 @@ Pin site infections are a common complication of external fixation that places a
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4960058/
 
 
-##THE GOAL##
+## GOAL
 The goal of this project was to asses the performance of a custom version of YOLO model to support early infection detection
 
 ## HYPOTHESIS
