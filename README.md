@@ -16,6 +16,9 @@ We were working under the hypothesis that the segmentation of an image containin
 
 Therefore we needed to implement a model that would separated bounding boxes and associated class probabilities. And that is in a nut shell what YOLO does.
 
+![YOLO](https://camo.githubusercontent.com/c54ee9c13e406046c35553e5da32175801a25b93/687474703a2f2f706a7265646469652e636f6d2f6d656469612f696d6167652f6d6f64656c5f322e706e67)
+
+
 ## TASKS
 
 ***TASK 1 – LESION BOUNDING***
@@ -53,7 +56,7 @@ We needed to shuffle the data to avoid any inference based on the order of the i
 
 ### MODELLING
 
-***OBJECT DETECTION USING YOLO (You Only Look Once)
+***OBJECT DETECTION USING YOLO (You Only Look Once)***
 
 Original model structure includes included 23 CNN, with convolutional and max pooling layers, followed by 2 fully connected layers at the end. Uses a set of pre-trained weights that are then optimised using a custom loss function
 
