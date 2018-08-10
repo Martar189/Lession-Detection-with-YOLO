@@ -45,6 +45,8 @@ How do you overcome the problem?
 
 Data augmentation implies increasing the amount of training data by applying transformations to both image and contour (so we could calculate the true bounding box). Below are the transformations applied:
 
+0. ![Original Image](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/10_NM6_orig.jpg)
+
 1. Horizontal and vertical flips
 2.	Rotations of 45 and 90 degrees
 3.	Crop (30%)
