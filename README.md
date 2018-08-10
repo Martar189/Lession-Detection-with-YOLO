@@ -28,6 +28,8 @@ Train a model to output the coordinates of the top-left and bottom-right vertice
 ***TASK 2 – LESION CLASSIFICATION***
 Use a classifier that discriminates between benign and malign lesions
 
+## DATASET
+
 
 ## PROJECT LIFECYCLE 
 
@@ -46,6 +48,7 @@ How do you overcome the problem?
 Data augmentation implies increasing the amount of training data by applying transformations to both image and contour (so we could calculate the true bounding box). Below are the transformations applied:
 
 0. Original Image
+
 ![Original Image](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/10_NM6_orig.jpg)
 
 1. Horizontal and vertical flips
