@@ -22,6 +22,7 @@ Therefore we needed to implement a model that would separated bounding boxes and
 ## TASKS
 
 ***TASK 1 – LESION BOUNDING***
+
 Train a model to output the coordinates of the top-left and bottom-right vertices of a rectangle that contains the lesion area (bounding box)
 
 ***TASK 2 – LESION CLASSIFICATION***
@@ -41,7 +42,7 @@ This is a challenge in medical applications, as we normally have very limited nu
 How do you overcome the problem? 
 
 ***DATA AUGMENTATION***
-We increased the amount of training data by applying transformations to both image and contour (so we could calculate the true bounding box). Below are the transformations applied:
+Data augmentation implies increasing the amount of training data by applying transformations to both image and contour (so we could calculate the true bounding box). Below are the transformations applied:
 a.	Horizontal and vertical flips
 b.	Rotations of 45 and 90 degrees
 c.	Crop (30%)
