@@ -45,10 +45,10 @@ How do you overcome the problem?
 
 Data augmentation implies increasing the amount of training data by applying transformations to both image and contour (so we could calculate the true bounding box). Below are the transformations applied:
 
-a.	Horizontal and vertical flips
-b.	Rotations of 45 and 90 degrees
-c.	Crop (30%)
-d.	Scale up (1.5)
+1. Horizontal and vertical flips
+2.	Rotations of 45 and 90 degrees
+3.	Crop (30%)
+4.	Scale up (1.5)
 
 
 
@@ -72,9 +72,10 @@ The original model structure includes included 23 CNN, with convolutional and ma
 
 
 ***Model advantages***
-  The whole detection pipeline is a single network
-  It can be customised and optimized end-to-end. 
-  It is extremely fast
+
+*The whole detection pipeline is a single network
+*It can be customised and optimized end-to-end. 
+*It is extremely fast
 
 For more information on the model [click here](https://pjreddie.com/media/files/papers/yolo.pdf)
 
