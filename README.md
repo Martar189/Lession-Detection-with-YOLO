@@ -1,6 +1,6 @@
 # Early-infection-detection-using-YOLO
 
-##MOTIVATION##
+## MOTIVATION
 
 Pin site infections are a common complication of external fixation that places a significant burden on the patient and healthcare system. Such infections increase the number of clinic visits required during a patient’s course of treatment, can result in the need for additional treatment including antibiotics and surgery, and most importantly can compromise patient outcomes should osteomyelitis or instability result from pin loosening or need for pin or complete construct removal. 
 
@@ -10,10 +10,10 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4960058/
 ##THE GOAL##
 The goal of this project was to asses the performance of a custom version of YOLO model to support early infection detection
 
-##HYPOTHESIS##
+## HYPOTHESIS
 
 
-##OUR TASKS##
+## OUR TASKS
 
 ***TASK 1 – LESION BOUNDING***
 Train a model to output the coordinates of the top-left and bottom-right vertices of a rectangle that contains the lesion area (bounding box)
@@ -22,9 +22,9 @@ Train a model to output the coordinates of the top-left and bottom-right vertice
 Use a classifier that discriminates between benign and malign lesions
 
 
-##PROJECT LIFECYCLE##
+## ROJECT LIFECYCLE 
 
-###DATA PREPROCESSING###
+### DATA PREPROCESSING 
 
 Image Classification problems are highly complex and we know that…
 
