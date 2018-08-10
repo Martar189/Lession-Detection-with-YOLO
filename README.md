@@ -42,7 +42,9 @@ This is a challenge in medical applications, as we normally have very limited nu
 How do you overcome the problem? 
 
 ***DATA AUGMENTATION***
+
 Data augmentation implies increasing the amount of training data by applying transformations to both image and contour (so we could calculate the true bounding box). Below are the transformations applied:
+
 a.	Horizontal and vertical flips
 b.	Rotations of 45 and 90 degrees
 c.	Crop (30%)
