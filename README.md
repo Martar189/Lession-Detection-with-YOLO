@@ -41,6 +41,11 @@ This is a challenge in medical applications, as we normally have very limited nu
 How do you overcome the problem? 
 
 ***DATA AUGMENTATION***
+We increased the amount of training data by applying transformations to both image and contour (so we could calculate the true bounding box). Below are the transformations applied:
+a.	Horizontal and vertical flips
+b.	Rotations of 45 and 90 degrees
+c.	Crop (30%)
+d.	Scale up (1.5)
 
 
 
@@ -49,8 +54,7 @@ How do you overcome the problem?
 Initial set: 206 samples
 Final dataset: Train on 1148 samples, validate on 42 samples
 
-LEARNINGS
-
+***LEARNINGS***
 We had to rebuild the pre - processing function to apply data augmentation to the training set only to avoid leakage
 We needed to shuffle the data to avoid any inference based on the order of the images
 
@@ -58,17 +62,17 @@ We needed to shuffle the data to avoid any inference based on the order of the i
 
 ***OBJECT DETECTION USING YOLO (You Only Look Once)***
 
-Original model structure includes included 23 CNN, with convolutional and max pooling layers, followed by 2 fully connected layers at the end. Uses a set of pre-trained weights that are then optimised using a custom loss function
+The original model structure includes included 23 CNN, with convolutional and max pooling layers, followed by 2 fully connected layers at the end. Uses a set of pre-trained weights that are then optimised using a custom loss function
 
 ![YOLO Architecture](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ43CZUbXypj0MJrgUP4d_PAlO8kwoKXL64B18rqamnz7r5B4bY)
 
 
-Model advantages
-The whole detection pipeline is a single network, 
-It can be customised and optimized end-to-end. 
-It is extremely fast
+***Model advantages***
+  The whole detection pipeline is a single network
+  It can be customised and optimized end-to-end. 
+  It is extremely fast
 
-For more information on the model [click here] (https://pjreddie.com/media/files/papers/yolo.pdf)
+For more information on the model [click here](https://pjreddie.com/media/files/papers/yolo.pdf)
 
 
 
