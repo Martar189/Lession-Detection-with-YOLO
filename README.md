@@ -78,7 +78,7 @@ Data augmentation implies increasing the amount of training data by applying tra
 Initial set: 206 samples
 Final dataset: Train on 1148 samples, validate on 42 samples
 
-***LEARNINGS***
+***Learnings***
 
 We had to rebuild the pre - processing function to apply data augmentation to the training set only to avoid leakage
 We needed to shuffle the data to avoid any inference based on the order of the images
