@@ -174,7 +174,8 @@ To compare model performance, we used:
 2. mean absolute error
 3. intersection over union (metric used in object detection models)
 
-![Intersection over Union](https://www.pyimagesearch.com/wp-content/uploads/2016/09/iou_equation.png)
+<img src=https://www.pyimagesearch.com/wp-content/uploads/2016/09/iou_equation.png" width="200">
+
 
 ***MSE Evaluation***
 
