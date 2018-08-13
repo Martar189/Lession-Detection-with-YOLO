@@ -139,6 +139,19 @@ Regularization technique for reducing overfitting in neural networks by preventi
 
 ![Dropout explained](https://cdn-images-1.medium.com/max/600/0*dOZ6esAristenchF.png)
 
+4. Custom loss function
+
+Our approach was to start simple and build up from there. Although the results using mean square error where quite promising, we decided to explore a custom loss function. Based on the loss function used in the original implementation, we took the elements that refer only to the bounding box:
+
+def custom_loss(y_true, y_pred):
+  true_xy, true_wh = y_true[..., 0:2], y_true[..., 2:4]
+  pred_xy, pred_wh = y_pred[..., 0:2], y_pred[..., 2:4]
+  loss_xy = K.mean(K.square(true_xy - pred_xy))
+  loss_wh = K.sum(K.square(K.sqrt(true_wh) - K.sqrt(pred_wh)))
+return loss_xy + loss_wh
+
+However, after 150 epochs using different learning rates, the model failed to converge and decided not to explore further based on positive results using mse
+
 
 
 
