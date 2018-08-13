@@ -174,7 +174,8 @@ To compare model performance, we used:
 2. mean absolute error
 3. intersection over union (metric used in object detection models)
 
-<img src=https://www.pyimagesearch.com/wp-content/uploads/2016/09/iou_equation.png" width="200">
+
+![Intersection over Union](https://www.pyimagesearch.com/wp-content/uploads/2016/09/iou_equation.png)
 
 
 ***MSE Evaluation***
@@ -202,8 +203,7 @@ Issues with more than one lesion or there is a prominent lesion within a wider a
 
 ### REALITY CHECK - DOES OUR MODEL GENERALISE?
 
-We used images from Google, chosen at random and to validate that the model generalises not only to melanoma images but to pin sites. And it did
-![happy](https://i.imgflip.com/powuj.jpg =250x)
+We used images from Google, chosen at random and to validate that the model generalises not only to melanoma images but to pin sites. And it did ![happy face](https://i.pinimg.com/236x/ce/c4/93/cec493e098c33c36ffe1cc8550d49fe3--free-will-smileys.jpg)
 
 ![Reality Check](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/Reality%20Check.PNG)
 
