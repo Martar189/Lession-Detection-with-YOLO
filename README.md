@@ -102,6 +102,22 @@ The original model structure includes included 23 CNN, with convolutional and ma
 
 For more information on the model [click here](https://pjreddie.com/media/files/papers/yolo.pdf)
 
+##OUR CUSTOM YOLO
+
+A simplified version of YOLOv2 in Keras with Tensorlow backend using pre-trained weights
+
+***What simplifications did we introduce?***
+
+We were working under the assumption that our images only included one lession, hence we only needed to detect one bounding box
+
+We broke the problem into tasks, allowing us to build the model iteratively. The first task being the bounding box detection, which allowes us to reduce our desired output was an array with only 4 elements
+
+***What did this mean?***
+
+1. From 23 to 22 layers with simple Dense output layer
+2. From a complex custom loss function to mean squared error; treating this as a regression like problem
+
+
 
 
 
