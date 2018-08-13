@@ -31,7 +31,11 @@ Use a classifier that discriminates between benign and malign lesions
 
 ## DATASET
 
-When we started this project, we did not have access to real pin site images. Therefore we used [ISIC archive](https://isic-archive.com/) images of melanomas (119) and not melanomas (87). 
+When we started this project, we did not have access to real pin site images. Therefore we used [ISIC archive](https://isic-archive.com/) images of melanomas (119) and not melanomas (87)
+
+***Why this dataset?***
+
+These lesions share similar properties to the images of pin site infections
 
 ## PROJECT LIFECYCLE 
 
