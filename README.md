@@ -202,7 +202,7 @@ Issues with more than one lesion or there is a prominent lesion within a wider a
 ### REALITY CHECK - DOES OUR MODEL GENERALISE?
 
 We used images from Google, chosen at random and to validate that the model generalises not only to melanoma images but to pin sites. And it did
-![happy](https://i.imgflip.com/powuj.jpg=250x)
+![happy](https://i.imgflip.com/powuj.jpg =250x)
 
 ![Reality Check](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/Reality%20Check.PNG)
 
@@ -222,6 +222,9 @@ We decided to go for option 2 and added the following to the our model:
 
 * Two model metrics: metrics = {'output_box': ['mae'], 'output_class': ['accuracy']}
 
+When we evaluated the results we soon realised that our model was overfitting quite badly to our training set
+
+![Classification evaluation](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/Classification%20Results.PNG)
 
 To improve the results wee explored changing the weighs of the different metrics. In our first attempt we tried to correct the IOU by introducing different loss weights: 0.7 for the bounding box loss and 0.3 for the class. Sadly, that returned much worse results than before. We then tried the opposite, 0.4 and 0.6 and the same happened
 
