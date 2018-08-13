@@ -199,7 +199,11 @@ Good performance on both training and test under different lighting conditions, 
 Issues with more than one lesion or there is a prominent lesion within a wider affected area results are mixed. This is aligned with our initial premise: only one lesion per image
 
 
-### REALITY CHECK
+### REALITY CHECK - DOES OUR MODEL GENERALISE?
+
+We used images from Google, chosen at random and to validate that the model generalises not only to melanoma images but to pin sites. And it did(https://i.imgflip.com/powuj.jpg)
+
+![Reality Check](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/Reality%20Check.PNG)
 
 ### CLASSIFICATION
 
