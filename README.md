@@ -201,7 +201,8 @@ Issues with more than one lesion or there is a prominent lesion within a wider a
 
 ### REALITY CHECK - DOES OUR MODEL GENERALISE?
 
-We used images from Google, chosen at random and to validate that the model generalises not only to melanoma images but to pin sites. And it did(https://i.imgflip.com/powuj.jpg)
+We used images from Google, chosen at random and to validate that the model generalises not only to melanoma images but to pin sites. And it did
+![happy](https://i.imgflip.com/powuj.jpg)
 
 ![Reality Check](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/Reality%20Check.PNG)
 
