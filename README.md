@@ -150,7 +150,7 @@ def custom_loss(y_true, y_pred):
   loss_wh = K.sum(K.square(K.sqrt(true_wh) - K.sqrt(pred_wh)))
 return loss_xy + loss_wh
 
-However, after 150 epochs using different learning rates, the model failed to converge and decided not to explore further based on positive results using mse
+After 150 epochs using different learning rates, the model failed to converge and decided not to explore further based on positive results using mse
 
 
 
