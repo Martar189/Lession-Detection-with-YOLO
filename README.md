@@ -122,12 +122,15 @@ We broke the problem into tasks, allowing us to build the model iteratively. The
 1. Transfer learning vs Fine tuning
 
 Transfer Learning = transferring the weights of an already trained model to another problem, initialising the model with those trained weights and training the whole network on the new dataset, optimising all parameters
+
 Fine Tuning = freezing the weights of all/some layers except the penultimate layer and train the network just to learn the representations of the penultimate layer
 
 2. Learning Rate and Optimiser
 
 3. Dropout Layer
 Regularization technique for reducing overfitting in neural networks by preventing complex co-adaptations on training data
+
+![Dropout explained](https://cdn-images-1.medium.com/max/600/0*dOZ6esAristenchF.png)
 
 
 
