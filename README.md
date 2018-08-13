@@ -91,6 +91,8 @@ The original model structure includes included 23 CNN, with convolutional and ma
 
 ![YOLO Architecture](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ43CZUbXypj0MJrgUP4d_PAlO8kwoKXL64B18rqamnz7r5B4bY)
 
+![YOLO Custom Loss Function](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/YOLO%20LOSS%20FUNCTION.jpg)
+
 
 ***Model advantages***
 
