@@ -102,7 +102,7 @@ The original model structure includes included 23 CNN, with convolutional and ma
 
 For more information on the model [click here](https://pjreddie.com/media/files/papers/yolo.pdf)
 
-##OUR CUSTOM YOLO
+### OUR CUSTOM YOLO
 
 A simplified version of YOLOv2 in Keras with Tensorlow backend using pre-trained weights
 
@@ -116,6 +116,19 @@ We broke the problem into tasks, allowing us to build the model iteratively. The
 
 1. From 23 to 22 layers with simple Dense output layer
 2. From a complex custom loss function to mean squared error; treating this as a regression like problem
+
+### HYPERPARAMETER TUNNING AND MODEL TRAINING
+
+1. Transfer learning vs Fine tuning
+
+Transfer Learning = transferring the weights of an already trained model to another problem, initialising the model with those trained weights and training the whole network on the new dataset, optimising all parameters
+Fine Tuning = freezing the weights of all/some layers except the penultimate layer and train the network just to learn the representations of the penultimate layer
+
+2. Learning Rate and Optimiser
+
+3. Dropout Layer
+Regularization technique for reducing overfitting in neural networks by preventing complex co-adaptations on training data
+
 
 
 
