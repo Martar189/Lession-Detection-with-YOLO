@@ -26,10 +26,12 @@ Therefore we needed to implement a model that would separated bounding boxes and
 Train a model to output the coordinates of the top-left and bottom-right vertices of a rectangle that contains the lesion area (bounding box)
 
 ***TASK 2 – LESION CLASSIFICATION***
+
 Use a classifier that discriminates between benign and malign lesions
 
 ## DATASET
 
+When we started this project, we did not have access to real pin site images. Therefore we used [ISIC archive](https://isic-archive.com/) images of melanomas (119) and not melanomas (87). 
 
 ## PROJECT LIFECYCLE 
 
