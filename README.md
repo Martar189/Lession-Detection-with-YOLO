@@ -133,6 +133,16 @@ Fine Tuning = freezing the weights of all/some layers except the penultimate lay
 
 2. Learning Rate and Optimiser
 
+We explored the following combinations of optimisers and learning rates
+- Adam with learning rate = 0.001
+- Adam with learning rate = 0.001 and dropout layer
+- Adam with learning rate = 1exp(-05)
+- Adamax with learning rate = 0.001
+- RMS with learning rate = 0.001
+- SGD with learning rate = 0.01
+
+For more details on optimisers and learning rates [click here](https://keras.io/optimizers/)
+
 3. Dropout Layer
 
 Regularization technique for reducing overfitting in neural networks by preventing complex co-adaptations on training data. Neurons are cancelled at random based on the chosen droupout value
@@ -158,6 +168,20 @@ To compare model performance, we used:
 1. loss (mean squared error)
 2. mean absolute error
 3. intersection over union (metric used in object detection models)
+
+![Intersection over Union](https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)
+
+
+### BEST PERFORMING MODEL
+
+Adam with learning rate of 0.001 with dropout. It had better iou despite showing slightly worst mse and mae
+
+Good performance on both training and test under different lighting conditions, and it can handle different shapes and sizes
+
+Issues with more than one lesion or there is a prominent lesion within a wider affected area results are mixed. This is aligned with our initial premise: only one lesion per image
+
+
+
 
 
 
