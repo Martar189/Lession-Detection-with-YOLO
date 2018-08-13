@@ -176,9 +176,17 @@ To compare model performance, we used:
 
 ![Intersection over Union](https://www.pyimagesearch.com/wp-content/uploads/2016/09/iou_equation.png)
 
+***MSE Evaluation***
 
+![MSE Evaluation](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/MSE%20Evaluation.png)
 
+***MAE Evaluation***
 
+![MAE Evaluation](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/MAE%20evaluation.png)
+
+***IOU Evaluation***
+
+![IOU Evaluation](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/IOU%20Evaluation.png)
 
 ### BEST PERFORMING MODEL
 
