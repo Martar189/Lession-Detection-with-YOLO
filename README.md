@@ -119,6 +119,12 @@ We broke the problem into tasks, allowing us to build the model iteratively. The
 
 ### HYPERPARAMETER TUNNING AND MODEL TRAINING
 
+Hyperparameters are the model parameters whose value is initialized before the learning takes place
+
+Hyperparamenter tunning refers to the process of determining the final value of those parameters ensuring the algorithm performs well not only on the training data, but also on new inputs
+
+In neural networks there are many parameters to tune, below are the ones we explored in this project:
+
 1. Transfer learning vs Fine tuning
 
 Transfer Learning = transferring the weights of an already trained model to another problem, initialising the model with those trained weights and training the whole network on the new dataset, optimising all parameters
@@ -128,7 +134,8 @@ Fine Tuning = freezing the weights of all/some layers except the penultimate lay
 2. Learning Rate and Optimiser
 
 3. Dropout Layer
-Regularization technique for reducing overfitting in neural networks by preventing complex co-adaptations on training data
+
+Regularization technique for reducing overfitting in neural networks by preventing complex co-adaptations on training data. Neurons are cancelled at random based on the chosen droupout value
 
 ![Dropout explained](https://cdn-images-1.medium.com/max/600/0*dOZ6esAristenchF.png)
 
