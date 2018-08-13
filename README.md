@@ -194,7 +194,28 @@ Adam with learning rate of 0.001 with dropout. It had better iou despite showing
 
 Good performance on both training and test under different lighting conditions, and it can handle different shapes and sizes
 
+
+
 Issues with more than one lesion or there is a prominent lesion within a wider affected area results are mixed. This is aligned with our initial premise: only one lesion per image
+
+
+### REALITY CHECK
+
+### CLASSIFICATION
+
+As we achieved good results in task one, we decided to attempt our second task: classification. To do so, we had two options:
+
+* Option 1 : Replicate the full YOLO model using the original model architecture and the YOLO loss function
+
+* Option 2: Turning our simplified model into a multi-task binary classified.
+
+We decided to go for option 2 and added the following to the our model:
+
+* Two model outputs: output_box and output_class with two different activation functions - one linear for the bounding box and a sigmoid for the classification problem
+
+* Custom loss function: loss = box_loss  (‘mse) + class_loss ('binary_crossentropy')
+
+* Two model metrics: metrics = {'output_box': ['mae'], 'output_class': ['accuracy']}
 
 
 
