@@ -217,6 +217,12 @@ We decided to go for option 2 and added the following to the our model:
 
 * Two model metrics: metrics = {'output_box': ['mae'], 'output_class': ['accuracy']}
 
+
+To improve the results wee explored changing the weighs of the different metrics. In our first attempt we tried to correct the IOU by introducing different loss weights: 0.7 for the bounding box loss and 0.3 for the class. Sadly, that returned much worse results than before. We then tried the opposite, 0.4 and 0.6 and the same happened
+
+***What this is implying?***
+The network is learning too much from the geometrical features from the images and using that to predict the class
+
 ## NEXT STEPS
 
 ### CUSTOM ENSAMBLED MODEL
@@ -228,15 +234,3 @@ Given the results above our hypothesis is that bulding a model with two differen
 
 Breaking down the problem into part will also allow us to explore using simpler networks trained from scratch
 Our current network is potentially too deep and might be learning too much
-
-
-
-
-
-
-
-
-
-
-
-
