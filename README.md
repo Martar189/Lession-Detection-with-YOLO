@@ -152,6 +152,12 @@ return loss_xy + loss_wh
 
 After 150 epochs using different learning rates, the model failed to converge and decided not to explore further based on positive results using mse
 
+### HYPERPARAMETER TUNNING EVALUATION
+To compare model performance, we used:
+
+1. loss (mean squared error)
+2. mean absolute error
+3. intersection over union (metric used in object detection models)
 
 
 
