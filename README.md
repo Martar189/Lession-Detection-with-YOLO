@@ -55,13 +55,16 @@ Data augmentation implies increasing the amount of training data by applying tra
 
 ![Flip1](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/10_NM6_origflip_image.jpg)
 ![Flip2](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/10_NM6_origfliphor_image.jpg)
+
 2.	Rotations of 45 and 90 degrees
 
 ![Rotation1](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/10_NM6_origrot45_image.jpg)
 ![Rotation2](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/10_NM6_origrot90_image.jpg)
+
 3.	Crop (30%)
 
 ![Crop](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/10_NM6_origcrop_image.jpg)
+
 4.	Scale up (1.5)
 
 ![Affine](https://github.com/Martar189/Lession-Detection-with-YOLO/blob/master/images/10_NM6_origaffine_image.jpg)
