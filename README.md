@@ -217,6 +217,19 @@ We decided to go for option 2 and added the following to the our model:
 
 * Two model metrics: metrics = {'output_box': ['mae'], 'output_class': ['accuracy']}
 
+## NEXT STEPS
+
+### CUSTOM ENSAMBLED MODEL
+
+Given the results above our hypothesis is that bulding a model with two different networks running sequentially (see below) will return much better results
+
+	Network 1 –  Defines the bounding box, telling network 2 where to look
+	Network 2 – Classifies the lesion, tells us what we are looking at 
+
+Breaking down the problem into part will also allow us to explore using simpler networks trained from scratch
+Our current network is potentially too deep and might be learning too much
+
+
 
 
 
