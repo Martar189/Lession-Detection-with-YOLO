@@ -43,7 +43,7 @@ These lesions share similar properties to the images of pin site infections
 
 Image Classification problems are highly complex and we know that…
 
-Complexity(Problem) ∝ Size(Data) ∝ Size(Model)
+***Complexity(Problem) ∝ Size(Data) ∝ Size(Model)***
 
 This is a challenge in medical applications, as we normally have very limited number of images
 
